@@ -1,0 +1,23 @@
+.header__container {
+  background-image: url("../img/post-image.jpg");
+  // view port height estudiar
+  height: 88vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header__title {
+  font-family: $playfair;
+  font-weight: $black-italic;
+  font-style: italic;
+  // font-size: $xx-large;
+  color: $white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

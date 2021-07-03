@@ -1,0 +1,25 @@
+.article__description {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.article__item__name {
+  font-family: $playfair;
+  font-size: $x-large;
+  font-weight: $black-italic;
+}
+
+.article__item__contact {
+  color: $fuzzy-wuzzy;
+  text-decoration: none;
+}
+
+.article__item__desc {
+  font-family: $roboto;
+  line-height: 200%;
+}
+// .container {
+//   display: flex;
+//   justify-content: space-between;
+// }

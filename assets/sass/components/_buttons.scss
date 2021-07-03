@@ -1,0 +1,22 @@
+.button {
+  background-color: $nickel;
+  color: $white;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-family: $roboto;
+  font-size: $small;
+
+  // margin-left: 50px;
+
+  &:hover {
+    background-color: $fuzzy-wuzzy;
+    color: $white;
+  }
+
+  &:focus {
+    background-color: $nickel;
+    color: $white;
+    box-shadow: none;
+    border: 3px solid $light-gray;
+  }
+}
